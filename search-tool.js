@@ -26,7 +26,7 @@ function search(file) {
         for (nextFile of readdirSync(file)) {
             search(`${file}${sep}${nextFile}`);
         }
-
+    // otherwise it's a file so check if it has regex searchTerm
     } else if (searchTerm.test(readFileSync(path, 'utf8'))) {
         console.log(file);
     }
