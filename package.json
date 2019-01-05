@@ -1,0 +1,23 @@
+{
+  "name": "node-challenges",
+  "version": "1.0.0",
+  "description": "challenges from eloquent javascript chapter 20",
+  "main": "search-tool.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mallett002/Node-Challenges.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "William Mallett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mallett002/Node-Challenges/issues"
+  },
+  "homepage": "https://github.com/mallett002/Node-Challenges#readme"
+}
